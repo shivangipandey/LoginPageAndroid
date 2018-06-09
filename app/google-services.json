@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "572879292829",
+    "firebase_url": "https://assignmentfirebase-71da4.firebaseio.com",
+    "project_id": "assignmentfirebase-71da4",
+    "storage_bucket": "assignmentfirebase-71da4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572879292829:android:5b85372ddeb14eb1",
+        "android_client_info": {
+          "package_name": "domain.shivangi.com.assignmentlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572879292829-a1b8d07i487u0kgm54eul5nc2rfmgmvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "domain.shivangi.com.assignmentlogin",
+            "certificate_hash": "c0b990c7bcb5dceb7e621f06b7e3525700e313fc"
+          }
+        },
+        {
+          "client_id": "572879292829-e48cepbu6u57c75n3uh8udqonorree12.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "572879292829-e48cepbu6u57c75n3uh8udqonorree12.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC27rGGjPPbeik5P4ND3wK7mTNptsIquGw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572879292829-e48cepbu6u57c75n3uh8udqonorree12.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

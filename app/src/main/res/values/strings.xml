@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AssignmentLogin</string>
+    <string name="instructions">Place your fingertip on the finger scanner to verify your identity</string>
+</resources>

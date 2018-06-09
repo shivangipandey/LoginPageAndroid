@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:padding="20dp"
+    tools:context="domain.shivangi.com.assignmentlogin.FingerScannerDialogActivity"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:id="@+id/tt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#a7cbd5"
+            android:text="Login with Finger Print"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_below="@id/tt"
+            android:layout_above="@id/linear"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_fingerprint_black_24dp"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textColor="@android:color/darker_gray"
+                android:text="Touch Sensor"
+                android:layout_marginLeft="5dp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/passcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USE PASSCODE"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@android:color/darker_gray" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
